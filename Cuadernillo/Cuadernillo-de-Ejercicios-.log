@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.15)  15 OCT 2022 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.15)  17 OCT 2022 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,24 +454,24 @@ Package hyperref Info: Link coloring OFF on input line 16.
 [1{/Users/cinthyaandrade/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-This exam contains 4 questions with 0 parts, 0 subparts, and 0 subsubparts.
+This exam contains 5 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./Cuadernillo-de-Ejercicios-.aux)
 Package rerunfilecheck Info: File `Cuadernillo-de-Ejercicios-.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11083 strings out of 477031
- 175265 string characters out of 5826714
- 534689 words of memory out of 5000000
- 32104 multiletter control sequences out of 15000+600000
+ 11089 strings out of 477031
+ 175343 string characters out of 5826714
+ 536790 words of memory out of 5000000
+ 32109 multiletter control sequences out of 15000+600000
  471161 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,10n,77p,463b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/cinthyaandrade/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Cuadernillo-de-Ejercicios-.pdf (1 page, 74326 bytes).
+Output written on Cuadernillo-de-Ejercicios-.pdf (1 page, 76454 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
