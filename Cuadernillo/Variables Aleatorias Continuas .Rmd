@@ -1,0 +1,41 @@
+---
+title: "Distribuciones de probabilidad"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+
+
+
+\textbf{DISTRIBUCIONES DE PROBABILIDAD}
+
+\emph{ Distribuciones de probabilidad para variables aleatorias continuas}
+
+
+Las \textbf{variables aleatorias continuas, }  por ejemplo estaturas y pesos, lapso de vida útil de un
+producto en particular o un error experimental de
+laboratorio, pueden tomar los numeros infinitamente correspondientes a un intervalo de una recta. 
+
+La profundidad o \textbf{densidad} de la probabilidad, que varía con x, puede ser descrita por una fórmula matemática f(x), llamada \textbf{distribución de probabilidad} o \textbf{función de densidad de probabilidad} para la variable aleatoria x. 
+
+Así como la suma de probabilidades discretas (o la suma de las frecuencias relativas) es \textbf{igual a 1} y la probabilidad de que x caiga en cierto intervalo de confianza puede encontrarse al sumar las probabilidades de ese intervalo, las distribuciones de probabilidad tienen las siguientes características: 
+
+
+\begin{itemize}
+\item  El área bajo una distribución continua de probabilidad es igual a 1
+\item La probabilidad de que x caiga en un intervalo particular, por ejemplo \emph{a} y \emph{b}, es igual al área bahjo la curva entre los dos puntos \emph{a} y \emph{b}. 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+

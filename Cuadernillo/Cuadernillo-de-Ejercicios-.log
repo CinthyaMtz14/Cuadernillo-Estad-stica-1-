@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.15)  27 OCT 2022 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.15)  27 OCT 2022 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -460,7 +460,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/Users/cinthyaandrade/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] [3] [4]
+] [2] [3]
+Overfull \hbox (611.94159pt too wide) in paragraph at lines 194--197
+[][] \OT1/cmr/bx/n/10 vari-ables aleato-rias con-tin-uas,  [] 
+ []
+
+[4]
 This exam contains 12 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./Cuadernillo-de-Ejercicios-.aux)
 Package rerunfilecheck Info: File `Cuadernillo-de-Ejercicios-.out' has not changed.
@@ -469,13 +474,13 @@ Package rerunfilecheck Info: File `Cuadernillo-de-Ejercicios-.out' has not chang
 Here is how much of TeX's memory you used:
  11186 strings out of 477031
  176722 string characters out of 5826714
- 537008 words of memory out of 5000000
+ 537007 words of memory out of 5000000
  32173 multiletter control sequences out of 15000+600000
  475309 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,10n,77p,463b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,77p,463b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/cinthyaandrade/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/cinthyaandrade/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Cuadernillo-de-Ejercicios-.pdf (4 pages, 144328 bytes).
+Output written on Cuadernillo-de-Ejercicios-.pdf (4 pages, 146460 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
