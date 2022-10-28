@@ -28,6 +28,75 @@ Así como la suma de probabilidades discretas (o la suma de las frecuencias rela
 \end{itemize}
 
 
+\textbf{Variable Aleatoria Uniforme}
+
+La variable aleatoria uniforme se emplea para modelar el comportamiento de una variable cuyos valores estén uniforme o exactamente distribuidos en un intervalo dado. 
+
+
+\textbf{Variable Aleatoria Exponencial}
+La variable aleatoria exponencial se utiliza para modelar variables aleatorias continuas tales como tiempos de espera o vidas útiles asociadas con componentes electrónicos. 
+
+Por ejemplo: 
+  El tiempo de espera en una caja de pago de un supermerdado tiene una distribución exponencial con un tiempo de espera promedio de 5 minutos. 
+  Sea la función de densidad de probabilidad:  
+  $$ f(x) = 0.2 e^{-.2x} $$ 
+  
+  Para hallar áreas bajo esta curva, se puede usar el hecho de que 
+  $$ P(x > a) = e^{-.2x} $$ 
+   para $$ a > 0 $$ 
+   
+   ¿Cuál es la probabilidad de que usted tenga que esperar 10 minutos o más en la caja de pago del supermercado?
+   
+ Solución: 
+   
+   La probabilidad a calcular es el área mostrada en la imagen. Se pide: 
+  $$  P(x > 10 )= e^{-.2(10)} = 0.135 $$   
+   
+  
+\textbf{La distribución normal de probabilidad} 
+
+
+Las distribuciones de probabilidad continua pueden tomar varias formas...
+
+La media $\mu$ localiza el centro de la distribución y la distribución es  \textbf{simétrica} al rededor de su media  $\mu$. 
+
+Como el área bajo la distribución normal de probabilidad es igual a 1, la simetría implica que el área a la derecha de $\mu$ y el área a la izquierda de $\mu$ son iguales. 
+
+La forma de la distribución está determinada por $\sigma$, la desviación estándar de la población. 
+
+
+
+\textbf{La distribución aleatoria  normal estándar} 
+
+Una variable aleatoria normal x está estandarizada al expresar su valos como el número de desviaciones estándar $\sigma$ que se encuentra a la izquierda o derecha de su media $\sigma$. 
+
+
+La variable aleatoria normal estándar, z, se define como,
+
+$$z =  \frac{x-\mu}{\sigma}$$
+o bien, lo que es equivalente, 
+
+$$ x = \mu + z \sigma $$ 
+
+De la fórmula podemos deducir que: 
+
+
+
+
+
+  
+
+
+
+
+Página 249 Estadística y probabilidad 
+
+
+
+
+
+
+
 
 
 
