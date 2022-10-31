@@ -1780,18 +1780,31 @@ número de fracasos antes del primer éxito</li>
 </ol>
 <p></p>
 <p>Si una variable aleatoria discreta X sigue una distribución
-geométrica con parámetro $ 0 &lt; p &lt;1 $ entonces escribiremos <span class="math inline">\(X \backsim Geometrica(p)\)</span> o simplemente
-<span class="math inline">\(X \backsim Geo(p)\)</span></p>
+geométrica con parámetro <span class="math inline">\(0 &lt; p
+&lt;1\)</span> entonces escribiremos <span class="math inline">\(X\backsim Geometrica(p)\)</span> o simplemente
+<span class="math inline">\(X\backsim Geo(p)\)</span></p>
 <p></p>
 <p>Si la variable aleatoria discreta X se usa para modelar el número de
 fracasos antes de obtener el primer éxito en una sucesión de ensayos
 independientes Bernoulli en donde cada uno de ellos la probabilidad de
 éxito es p, entonces la función de probabilidad de <span class="math inline">\(X \backsim Geometrica(p)\)</span> es</p>
-<p><span class="math display">\[P [X = x] = p (1-p)^x\]</span> Para
-valores de <span class="math display">\[ x = 0,1,2,3, ...\]</span></p>
+<p><span class="math display">\[P[X = x] = p (1-p)^x\]</span> Para
+valores de <span class="math display">\[x = 0,1,2,3, ...\]</span></p>
+<p>Ejemplo 1:</p>
+<p></p>
+<p>Media : <span class="math display">\[E(x) = \lambda\]</span>
+Varianza:</p>
+<p><span class="math display">\[V(x) = \lambda\]</span> Es decir, tanto
+el valor esperado como la varianza de una variable aleatoria con
+distribución de Poisson son iguales a <span class="math inline">\(\lambda\)</span></p>
+<p></p>
+<p>Como consecuencia del TCL, para valores grandes de <span class="math inline">\(\lambda\)</span> de una variable aleatoria Poisson
+X puede aproximarse por otra normal dado que el cociente:</p>
+<p><span class="math display">\[Y
+=\frac{X-\lambda}{\sqrt{\lambda}}\]</span></p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiRXN0YWTDrXN0aWNhIDEiCm91dHB1dDoKICBwZGZfZG9jdW1lbnQ6IGRlZmF1bHQKICBodG1sX25vdGVib29rOiBkZWZhdWx0Ci0tLQoKXHRleHRiZntESVNUUklCVUNJT05FUyBERSBQUk9CQUJJTElEQUR9CgpcdGV4dHtEaXN0cmlidWNpw7NuIGdlb23DqXRyaWNhfQoKRW4gdGVvcsOtYSBkZSBwcm9iYWJpbGlkYWQgeSBlc3RhZMOtc3RpY2EsIGxhIGRpc3RyaWJ1Y2nDs24gZ2VvbcOpdHJpY2EgZXMgY3lhbHF1aWVyYSBkZSBsYXMgZG9zIGRpc3RyaWJ1Y2lvbmVzIGRlIHByb2JhYmlsaWRhZCBkaXNjcmV0YXMgc2lndWllbnRlczogCgoxLiBTaSAkWCA9IHsxLDIsIC4uLiB9JCBlcyBlbCBuw7ptZXJvIG5lY2VzYXJpbyBwYXJhIG9idGVuZXIgdW4gw6l4aXRvIAoyLiBTaSAkWCA9IHswLDEsMiwgLi4uIH0kIGVzIGVsIG7Dum1lcm8gZGUgZnJhY2Fzb3MgYW50ZXMgZGVsIHByaW1lciDDqXhpdG8gCgpcdGV4dGJmeyBOb3RhY2nDs246IH0KClNpIHVuYSB2YXJpYWJsZSBhbGVhdG9yaWEgZGlzY3JldGEgWCBzaWd1ZSB1bmEgZGlzdHJpYnVjacOzbiBnZW9tw6l0cmljYSBjb24gcGFyw6FtZXRybyAgJCAwIDwgcCA8MSAkIGVudG9uY2VzIGVzY3JpYmlyZW1vcyAkWCBcYmFja3NpbSBHZW9tZXRyaWNhKHApJCAgbyBzaW1wbGVtZW50ZSAkWCBcYmFja3NpbSBHZW8ocCkkIAoKXHRleHRiZnsgRnVuY2nDs24gZGUgcHJvYmFiaWxpZGFkOiB9CgpTaSBsYSB2YXJpYWJsZSBhbGVhdG9yaWEgZGlzY3JldGEgWCBzZSB1c2EgcGFyYSBtb2RlbGFyIGVsIG7Dum1lcm8gZGUgZnJhY2Fzb3MgYW50ZXMgZGUgb2J0ZW5lciBlbCBwcmltZXIgw6l4aXRvIGVuIHVuYSBzdWNlc2nDs24gZGUgZW5zYXlvcyBpbmRlcGVuZGllbnRlcyBCZXJub3VsbGkgZW4gZG9uZGUgY2FkYSB1bm8gZGUgZWxsb3MgbGEgcHJvYmFiaWxpZGFkIGRlIMOpeGl0byBlcyBwLCBlbnRvbmNlcyBsYSBmdW5jacOzbiBkZSBwcm9iYWJpbGlkYWQgZGUgJFggXGJhY2tzaW0gR2VvbWV0cmljYShwKSQgZXMgCgokJFAgW1ggPSB4XSA9IHAgKDEtcCleeCQkIApQYXJhIHZhbG9yZXMgZGUgJCQgeCA9IDAsMSwyLDMsIC4uLiQkIAoKCgoKCgo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiRXN0YWTDrXN0aWNhIDEiCm91dHB1dDoKICBwZGZfZG9jdW1lbnQ6IGRlZmF1bHQKICBodG1sX25vdGVib29rOiBkZWZhdWx0Ci0tLQoKXHRleHRiZntESVNUUklCVUNJT05FUyBERSBQUk9CQUJJTElEQUR9CgpcdGV4dHtEaXN0cmlidWNpw7NuIGdlb23DqXRyaWNhfQoKRW4gdGVvcsOtYSBkZSBwcm9iYWJpbGlkYWQgeSBlc3RhZMOtc3RpY2EsIGxhIGRpc3RyaWJ1Y2nDs24gZ2VvbcOpdHJpY2EgZXMgY3lhbHF1aWVyYSBkZSBsYXMgZG9zIGRpc3RyaWJ1Y2lvbmVzIGRlIHByb2JhYmlsaWRhZCBkaXNjcmV0YXMgc2lndWllbnRlczogCgoxLiBTaSAkWCA9IHsxLDIsIC4uLiB9JCBlcyBlbCBuw7ptZXJvIG5lY2VzYXJpbyBwYXJhIG9idGVuZXIgdW4gw6l4aXRvIAoyLiBTaSAkWCA9IHswLDEsMiwgLi4uIH0kIGVzIGVsIG7Dum1lcm8gZGUgZnJhY2Fzb3MgYW50ZXMgZGVsIHByaW1lciDDqXhpdG8gCgpcdGV4dGJmeyBOb3RhY2nDs246IH0KClNpIHVuYSB2YXJpYWJsZSBhbGVhdG9yaWEgZGlzY3JldGEgWCBzaWd1ZSB1bmEgZGlzdHJpYnVjacOzbiBnZW9tw6l0cmljYSBjb24gcGFyw6FtZXRybyAgJDAgPCBwIDwxJCBlbnRvbmNlcyBlc2NyaWJpcmVtb3MgJFhcYmFja3NpbSBHZW9tZXRyaWNhKHApJCAgbyBzaW1wbGVtZW50ZSAkWFxiYWNrc2ltIEdlbyhwKSQgCgpcdGV4dGJmeyBGdW5jacOzbiBkZSBwcm9iYWJpbGlkYWQ6IH0KClNpIGxhIHZhcmlhYmxlIGFsZWF0b3JpYSBkaXNjcmV0YSBYIHNlIHVzYSBwYXJhIG1vZGVsYXIgZWwgbsO6bWVybyBkZSBmcmFjYXNvcyBhbnRlcyBkZSBvYnRlbmVyIGVsIHByaW1lciDDqXhpdG8gZW4gdW5hIHN1Y2VzacOzbiBkZSBlbnNheW9zIGluZGVwZW5kaWVudGVzIEJlcm5vdWxsaSBlbiBkb25kZSBjYWRhIHVubyBkZSBlbGxvcyBsYSBwcm9iYWJpbGlkYWQgZGUgw6l4aXRvIGVzIHAsIGVudG9uY2VzIGxhIGZ1bmNpw7NuIGRlIHByb2JhYmlsaWRhZCBkZSAkWCBcYmFja3NpbSBHZW9tZXRyaWNhKHApJCBlcyAKCiQkUFtYID0geF0gPSBwICgxLXApXngkJCAKUGFyYSB2YWxvcmVzIGRlICQkeCA9IDAsMSwyLDMsIC4uLiQkIAoKCkVqZW1wbG8gMTogCgoKCgpcdGV4dGJme0Rpc3RyaWJ1Y2nDs24gUG9pc3NvbiB9CgpNZWRpYSA6IAokJEUoeCkgPSBcbGFtYmRhJCQgClZhcmlhbnphOiAKCiQkVih4KSA9IFxsYW1iZGEkJCAKRXMgZGVjaXIsIHRhbnRvIGVsIHZhbG9yIGVzcGVyYWRvIGNvbW8gbGEgdmFyaWFuemEgZGUgdW5hIHZhcmlhYmxlIGFsZWF0b3JpYSBjb24gZGlzdHJpYnVjacOzbiBkZSBQb2lzc29uIHNvbiBpZ3VhbGVzIGEgJFxsYW1iZGEkCgoKXHRleHRiZntBcHJveGltYWNpw7NuIGEgdW5hIG5vcm1hbCBvIGVzdGFuZGFyaXphY2nDs24gfQoKQ29tbyBjb25zZWN1ZW5jaWEgZGVsIFRDTCwgcGFyYSB2YWxvcmVzIGdyYW5kZXMgZGUgJFxsYW1iZGEkIGRlIHVuYSB2YXJpYWJsZSBhbGVhdG9yaWEgUG9pc3NvbiBYIHB1ZWRlIGFwcm94aW1hcnNlIHBvciBvdHJhIG5vcm1hbCBkYWRvIHF1ZSBlbCBjb2NpZW50ZTogCgokJFkgPVxmcmFje1gtXGxhbWJkYX17XHNxcnR7XGxhbWJkYX19JCQgCgoKCg==</div>
 
 
 

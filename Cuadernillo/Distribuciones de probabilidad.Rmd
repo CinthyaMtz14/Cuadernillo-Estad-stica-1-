@@ -16,17 +16,36 @@ En teoría de probabilidad y estadística, la distribución geométrica es cyalq
 
 \textbf{ Notación: }
 
-Si una variable aleatoria discreta X sigue una distribución geométrica con parámetro  $ 0 < p <1 $ entonces escribiremos $X \backsim Geometrica(p)$  o simplemente $X \backsim Geo(p)$ 
+Si una variable aleatoria discreta X sigue una distribución geométrica con parámetro  $0 < p <1$ entonces escribiremos $X\backsim Geometrica(p)$  o simplemente $X\backsim Geo(p)$ 
 
 \textbf{ Función de probabilidad: }
 
 Si la variable aleatoria discreta X se usa para modelar el número de fracasos antes de obtener el primer éxito en una sucesión de ensayos independientes Bernoulli en donde cada uno de ellos la probabilidad de éxito es p, entonces la función de probabilidad de $X \backsim Geometrica(p)$ es 
 
-$$P [X = x] = p (1-p)^x$$ 
-Para valores de $$ x = 0,1,2,3, ...$$ 
+$$P[X = x] = p (1-p)^x$$ 
+Para valores de $$x = 0,1,2,3, ...$$ 
+
+
+Ejemplo 1: 
 
 
 
+
+\textbf{Distribución Poisson }
+
+Media : 
+$$E(x) = \lambda$$ 
+Varianza: 
+
+$$V(x) = \lambda$$ 
+Es decir, tanto el valor esperado como la varianza de una variable aleatoria con distribución de Poisson son iguales a $\lambda$
+
+
+\textbf{Aproximación a una normal o estandarización }
+
+Como consecuencia del TCL, para valores grandes de $\lambda$ de una variable aleatoria Poisson X puede aproximarse por otra normal dado que el cociente: 
+
+$$Y =\frac{X-\lambda}{\sqrt{\lambda}}$$ 
 
 
 
