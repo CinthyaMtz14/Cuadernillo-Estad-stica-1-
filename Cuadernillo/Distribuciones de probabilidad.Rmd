@@ -1,0 +1,32 @@
+---
+title: "Estadística 1"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+\textbf{DISTRIBUCIONES DE PROBABILIDAD}
+
+\text{Distribución geométrica}
+
+En teoría de probabilidad y estadística, la distribución geométrica es cyalquiera de las dos distribuciones de probabilidad discretas siguientes: 
+
+1. Si $X = {1,2, ... }$ es el número necesario para obtener un éxito 
+2. Si $X = {0,1,2, ... }$ es el número de fracasos antes del primer éxito 
+
+\textbf{ Notación: }
+
+Si una variable aleatoria discreta X sigue una distribución geométrica con parámetro  $ 0 < p <1 $ entonces escribiremos $X \backsim Geometrica(p)$  o simplemente $X \backsim Geo(p)$ 
+
+\textbf{ Función de probabilidad: }
+
+Si la variable aleatoria discreta X se usa para modelar el número de fracasos antes de obtener el primer éxito en una sucesión de ensayos independientes Bernoulli en donde cada uno de ellos la probabilidad de éxito es p, entonces la función de probabilidad de $X \backsim Geometrica(p)$ es 
+
+$$P [X = x] = p (1-p)^x$$ 
+Para valores de $$ x = 0,1,2,3, ...$$ 
+
+
+
+
+
+
