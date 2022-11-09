@@ -3,9 +3,83 @@ title: "Estadística 1"
 output:
   pdf_document: default
   html_notebook: default
+  word_document: default
 ---
 
 \textbf{DISTRIBUCIONES DE PROBABILIDAD}
+
+\textbf{La distribución normal de probabilidad} 
+
+
+Las distribuciones de probabilidad continua pueden tomar varias formas...
+
+La media $\mu$ localiza el centro de la distribución y la distribución es  \textbf{simétrica} alrededor de su media  $\mu$. 
+
+Como el área bajo la distribución normal de probabilidad es igual a 1, la simetría implica que el área a la derecha de $\mu$ y el área a la izquierda de $\mu$ son iguales. 
+
+La forma de la distribución está determinada por $\sigma$, la desviación estándar de la población. 
+
+
+
+\textbf{La distribución aleatoria  normal estándar} 
+
+Una variable aleatoria normal x está estandarizada al expresar su valos como el número de desviaciones estándar $\sigma$ que se encuentra a la izquierda o derecha de su media $\sigma$. 
+
+
+La variable aleatoria normal estándar, z, se define como,
+
+$$z =  \frac{x-\mu}{\sigma}$$
+o bien, lo que es equivalente, 
+
+$$ x = \mu + z \sigma $$ 
+
+De la fórmula podemos deducir que: 
+
+
+
+
+
+  \textbf{La distribución normal de probabilidad} 
+
+
+Las distribuciones de probabilidad continua pueden tomar varias formas...
+
+La media $\mu$ localiza el centro de la distribución y la distribución es  \textbf{simétrica} al rededor de su media  $\mu$. 
+
+Como el área bajo la distribución normal de probabilidad es igual a 1, la simetría implica que el área a la derecha de $\mu$ y el área a la izquierda de $\mu$ son iguales. 
+
+La forma de la distribución está determinada por $\sigma$, la desviación estándar de la población. 
+
+
+
+\textbf{La distribución aleatoria  normal estándar} 
+
+Una variable aleatoria normal x está estandarizada al expresar su valos como el número de desviaciones estándar $\sigma$ que se encuentra a la izquierda o derecha de su media $\sigma$. 
+
+
+La variable aleatoria normal estándar, z, se define como,
+
+$$z =  \frac{x-\mu}{\sigma}$$
+o bien, lo que es equivalente, 
+
+$$ x = \mu + z \sigma $$ 
+
+De la fórmula podemos deducir que: 
+
+
+
+
+
+  
+
+
+
+
+###Página 249 Estadística y probabilidad 
+
+
+
+
 
 \text{Distribución geométrica}
 
@@ -28,14 +102,70 @@ Para valores de $$x = 0,1,2,3, ...$$
 
 Ejemplo 1: 
 
+Suponga que cada una de sus llamadas a una estación de radio popular tiene una probabilidad de 0.02 de ser respondida. Asumiendo que las llamadas son independientes, ¿cuál es la probabilidad de que la respondan a la décima llamada?¿Cuál es el número medio de llamadas para conectar?
+
+Sea $x$ el número de llamadas a la estación hasta ser atendido. 
+
+Éxito: llamada respondida (p)
+Fracaso: llamada no respondida (1-p)
+
+Sea $p = 0.02$ 
+y $1-p = 0.98$
+
+Entonces: 
+$$ f(x) = (1-p)^{x-1}p$$
+ 
+ $$f(x) = (0.98)^{10-1}(0.02)$$ 
+ 
+ $$f(x) = 0.0167 $$ 
+
+
+Para calcular el valor esperado de una distribución geométrica sabemos que: 
+
+$$E(x) = \frac{1}{p} $$ 
+
+Al sustituir: 
+$$E(x) = \frac{1}{0.02} = 50 $$ 
+
+
+
+Ejemplo 2: 
+
+La probabilidad de calibrar las llantas de un carro de acuerdo con las especificaciones de la marca es de 0.6. Asumiendo que los intentos de calibración son independientes, ¿cuál es la probabilidad de que a lo más tres intentos de calibración sean requeridos para satisfacer las especificaciones?
+
+
+sea x = intentos para lograr la calibración. 
+
+$p = 0.6$ 
+y 
+$1-p = 0.4$ 
+
+Se quiere calcular la: 
+
+$$ P(X \leq 3) = P(x = 1) + P(x = 2) + P(x = 3)$$
+
+Sabemos que: 
+$$ f(x) = (1-p)^{x-1}p$$
+
+$$f(x=1) = (0.6)(0.4)^0 = 0.6 $$ 
+$$f(x=2) = (0.6)(0.4)^1 = 0.24 $$ 
+$$f(x=3) = (0.6)(0.4)^2 = 0.096 $$ 
+Entonces: 
+
+$$P(X \leq 3) = 0.936 $$ 
 
 
 
 \textbf{Distribución Poisson }
 
 Media : 
+
 $$E(x) = \lambda$$ 
+
+
+
 Varianza: 
+
 
 $$V(x) = \lambda$$ 
 Es decir, tanto el valor esperado como la varianza de una variable aleatoria con distribución de Poisson son iguales a $\lambda$

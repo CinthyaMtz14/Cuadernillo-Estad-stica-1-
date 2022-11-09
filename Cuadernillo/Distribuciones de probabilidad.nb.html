@@ -1769,6 +1769,43 @@ pre code {
 
 <!-- rnb-text-begin -->
 <p></p>
+<p></p>
+<p>Las distribuciones de probabilidad continua pueden tomar varias
+formas…</p>
+<p>La media <span class="math inline">\(\mu\)</span> localiza el centro
+de la distribución y la distribución es alrededor de su media <span class="math inline">\(\mu\)</span>.</p>
+<p>Como el área bajo la distribución normal de probabilidad es igual a
+1, la simetría implica que el área a la derecha de <span class="math inline">\(\mu\)</span> y el área a la izquierda de <span class="math inline">\(\mu\)</span> son iguales.</p>
+<p>La forma de la distribución está determinada por <span class="math inline">\(\sigma\)</span>, la desviación estándar de la
+población.</p>
+<p></p>
+<p>Una variable aleatoria normal x está estandarizada al expresar su
+valos como el número de desviaciones estándar <span class="math inline">\(\sigma\)</span> que se encuentra a la izquierda o
+derecha de su media <span class="math inline">\(\sigma\)</span>.</p>
+<p>La variable aleatoria normal estándar, z, se define como,</p>
+<p><span class="math display">\[z =  \frac{x-\mu}{\sigma}\]</span> o
+bien, lo que es equivalente,</p>
+<p><span class="math display">\[ x = \mu + z \sigma \]</span></p>
+<p>De la fórmula podemos deducir que:</p>
+<p></p>
+<p>Las distribuciones de probabilidad continua pueden tomar varias
+formas…</p>
+<p>La media <span class="math inline">\(\mu\)</span> localiza el centro
+de la distribución y la distribución es al rededor de su media <span class="math inline">\(\mu\)</span>.</p>
+<p>Como el área bajo la distribución normal de probabilidad es igual a
+1, la simetría implica que el área a la derecha de <span class="math inline">\(\mu\)</span> y el área a la izquierda de <span class="math inline">\(\mu\)</span> son iguales.</p>
+<p>La forma de la distribución está determinada por <span class="math inline">\(\sigma\)</span>, la desviación estándar de la
+población.</p>
+<p></p>
+<p>Una variable aleatoria normal x está estandarizada al expresar su
+valos como el número de desviaciones estándar <span class="math inline">\(\sigma\)</span> que se encuentra a la izquierda o
+derecha de su media <span class="math inline">\(\sigma\)</span>.</p>
+<p>La variable aleatoria normal estándar, z, se define como,</p>
+<p><span class="math display">\[z =  \frac{x-\mu}{\sigma}\]</span> o
+bien, lo que es equivalente,</p>
+<p><span class="math display">\[ x = \mu + z \sigma \]</span></p>
+<p>De la fórmula podemos deducir que:</p>
+<p>###Página 249 Estadística y probabilidad</p>
 <p>En teoría de probabilidad y estadística, la distribución geométrica
 es cyalquiera de las dos distribuciones de probabilidad discretas
 siguientes:</p>
@@ -1791,9 +1828,47 @@ independientes Bernoulli en donde cada uno de ellos la probabilidad de
 <p><span class="math display">\[P[X = x] = p (1-p)^x\]</span> Para
 valores de <span class="math display">\[x = 0,1,2,3, ...\]</span></p>
 <p>Ejemplo 1:</p>
+<p>Suponga que cada una de sus llamadas a una estación de radio popular
+tiene una probabilidad de 0.02 de ser respondida. Asumiendo que las
+llamadas son independientes, ¿cuál es la probabilidad de que la
+respondan a la décima llamada?¿Cuál es el número medio de llamadas para
+conectar?</p>
+<p>Sea <span class="math inline">\(x\)</span> el número de llamadas a la
+estación hasta ser atendido.</p>
+<p>Éxito: llamada respondida (p) Fracaso: llamada no respondida
+(1-p)</p>
+<p>Sea <span class="math inline">\(p = 0.02\)</span> y <span class="math inline">\(1-p = 0.98\)</span></p>
+<p>Entonces: <span class="math display">\[ f(x) =
+(1-p)^{x-1}p\]</span></p>
+<p><span class="math display">\[f(x) = (0.98)^{10-1}(0.02)\]</span></p>
+<p><span class="math display">\[f(x) = 0.0167 \]</span></p>
+<p>Para calcular el valor esperado de una distribución geométrica
+sabemos que:</p>
+<p><span class="math display">\[E(x) = \frac{1}{p} \]</span></p>
+<p>Al sustituir: <span class="math display">\[E(x) = \frac{1}{0.02} = 50
+\]</span></p>
+<p>Ejemplo 2:</p>
+<p>La probabilidad de calibrar las llantas de un carro de acuerdo con
+las especificaciones de la marca es de 0.6. Asumiendo que los intentos
+de calibración son independientes, ¿cuál es la probabilidad de que a lo
+más tres intentos de calibración sean requeridos para satisfacer las
+especificaciones?</p>
+<p>sea x = intentos para lograr la calibración.</p>
+<p><span class="math inline">\(p = 0.6\)</span> y <span class="math inline">\(1-p = 0.4\)</span></p>
+<p>Se quiere calcular la:</p>
+<p><span class="math display">\[ P(X \leq 3) = P(x = 1) + P(x = 2) + P(x
+= 3)\]</span></p>
+<p>Sabemos que: <span class="math display">\[ f(x) =
+(1-p)^{x-1}p\]</span></p>
+<p><span class="math display">\[f(x=1) = (0.6)(0.4)^0 = 0.6 \]</span>
+<span class="math display">\[f(x=2) = (0.6)(0.4)^1 = 0.24 \]</span>
+<span class="math display">\[f(x=3) = (0.6)(0.4)^2 = 0.096 \]</span>
+Entonces:</p>
+<p><span class="math display">\[P(X \leq 3) = 0.936 \]</span></p>
 <p></p>
-<p>Media : <span class="math display">\[E(x) = \lambda\]</span>
-Varianza:</p>
+<p>Media :</p>
+<p><span class="math display">\[E(x) = \lambda\]</span></p>
+<p>Varianza:</p>
 <p><span class="math display">\[V(x) = \lambda\]</span> Es decir, tanto
 el valor esperado como la varianza de una variable aleatoria con
 distribución de Poisson son iguales a <span class="math inline">\(\lambda\)</span></p>
@@ -1804,7 +1879,7 @@ X puede aproximarse por otra normal dado que el cociente:</p>
 =\frac{X-\lambda}{\sqrt{\lambda}}\]</span></p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiRXN0YWTDrXN0aWNhIDEiCm91dHB1dDoKICBwZGZfZG9jdW1lbnQ6IGRlZmF1bHQKICBodG1sX25vdGVib29rOiBkZWZhdWx0Ci0tLQoKXHRleHRiZntESVNUUklCVUNJT05FUyBERSBQUk9CQUJJTElEQUR9CgpcdGV4dHtEaXN0cmlidWNpw7NuIGdlb23DqXRyaWNhfQoKRW4gdGVvcsOtYSBkZSBwcm9iYWJpbGlkYWQgeSBlc3RhZMOtc3RpY2EsIGxhIGRpc3RyaWJ1Y2nDs24gZ2VvbcOpdHJpY2EgZXMgY3lhbHF1aWVyYSBkZSBsYXMgZG9zIGRpc3RyaWJ1Y2lvbmVzIGRlIHByb2JhYmlsaWRhZCBkaXNjcmV0YXMgc2lndWllbnRlczogCgoxLiBTaSAkWCA9IHsxLDIsIC4uLiB9JCBlcyBlbCBuw7ptZXJvIG5lY2VzYXJpbyBwYXJhIG9idGVuZXIgdW4gw6l4aXRvIAoyLiBTaSAkWCA9IHswLDEsMiwgLi4uIH0kIGVzIGVsIG7Dum1lcm8gZGUgZnJhY2Fzb3MgYW50ZXMgZGVsIHByaW1lciDDqXhpdG8gCgpcdGV4dGJmeyBOb3RhY2nDs246IH0KClNpIHVuYSB2YXJpYWJsZSBhbGVhdG9yaWEgZGlzY3JldGEgWCBzaWd1ZSB1bmEgZGlzdHJpYnVjacOzbiBnZW9tw6l0cmljYSBjb24gcGFyw6FtZXRybyAgJDAgPCBwIDwxJCBlbnRvbmNlcyBlc2NyaWJpcmVtb3MgJFhcYmFja3NpbSBHZW9tZXRyaWNhKHApJCAgbyBzaW1wbGVtZW50ZSAkWFxiYWNrc2ltIEdlbyhwKSQgCgpcdGV4dGJmeyBGdW5jacOzbiBkZSBwcm9iYWJpbGlkYWQ6IH0KClNpIGxhIHZhcmlhYmxlIGFsZWF0b3JpYSBkaXNjcmV0YSBYIHNlIHVzYSBwYXJhIG1vZGVsYXIgZWwgbsO6bWVybyBkZSBmcmFjYXNvcyBhbnRlcyBkZSBvYnRlbmVyIGVsIHByaW1lciDDqXhpdG8gZW4gdW5hIHN1Y2VzacOzbiBkZSBlbnNheW9zIGluZGVwZW5kaWVudGVzIEJlcm5vdWxsaSBlbiBkb25kZSBjYWRhIHVubyBkZSBlbGxvcyBsYSBwcm9iYWJpbGlkYWQgZGUgw6l4aXRvIGVzIHAsIGVudG9uY2VzIGxhIGZ1bmNpw7NuIGRlIHByb2JhYmlsaWRhZCBkZSAkWCBcYmFja3NpbSBHZW9tZXRyaWNhKHApJCBlcyAKCiQkUFtYID0geF0gPSBwICgxLXApXngkJCAKUGFyYSB2YWxvcmVzIGRlICQkeCA9IDAsMSwyLDMsIC4uLiQkIAoKCkVqZW1wbG8gMTogCgoKCgpcdGV4dGJme0Rpc3RyaWJ1Y2nDs24gUG9pc3NvbiB9CgpNZWRpYSA6IAokJEUoeCkgPSBcbGFtYmRhJCQgClZhcmlhbnphOiAKCiQkVih4KSA9IFxsYW1iZGEkJCAKRXMgZGVjaXIsIHRhbnRvIGVsIHZhbG9yIGVzcGVyYWRvIGNvbW8gbGEgdmFyaWFuemEgZGUgdW5hIHZhcmlhYmxlIGFsZWF0b3JpYSBjb24gZGlzdHJpYnVjacOzbiBkZSBQb2lzc29uIHNvbiBpZ3VhbGVzIGEgJFxsYW1iZGEkCgoKXHRleHRiZntBcHJveGltYWNpw7NuIGEgdW5hIG5vcm1hbCBvIGVzdGFuZGFyaXphY2nDs24gfQoKQ29tbyBjb25zZWN1ZW5jaWEgZGVsIFRDTCwgcGFyYSB2YWxvcmVzIGdyYW5kZXMgZGUgJFxsYW1iZGEkIGRlIHVuYSB2YXJpYWJsZSBhbGVhdG9yaWEgUG9pc3NvbiBYIHB1ZWRlIGFwcm94aW1hcnNlIHBvciBvdHJhIG5vcm1hbCBkYWRvIHF1ZSBlbCBjb2NpZW50ZTogCgokJFkgPVxmcmFje1gtXGxhbWJkYX17XHNxcnR7XGxhbWJkYX19JCQgCgoKCg==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiRXN0YWTDrXN0aWNhIDEiCm91dHB1dDoKICBwZGZfZG9jdW1lbnQ6IGRlZmF1bHQKICBodG1sX25vdGVib29rOiBkZWZhdWx0CiAgd29yZF9kb2N1bWVudDogZGVmYXVsdAotLS0KClx0ZXh0YmZ7RElTVFJJQlVDSU9ORVMgREUgUFJPQkFCSUxJREFEfQoKXHRleHRiZntMYSBkaXN0cmlidWNpw7NuIG5vcm1hbCBkZSBwcm9iYWJpbGlkYWR9IAoKCkxhcyBkaXN0cmlidWNpb25lcyBkZSBwcm9iYWJpbGlkYWQgY29udGludWEgcHVlZGVuIHRvbWFyIHZhcmlhcyBmb3JtYXMuLi4KCkxhIG1lZGlhICRcbXUkIGxvY2FsaXphIGVsIGNlbnRybyBkZSBsYSBkaXN0cmlidWNpw7NuIHkgbGEgZGlzdHJpYnVjacOzbiBlcyAgXHRleHRiZntzaW3DqXRyaWNhfSBhbHJlZGVkb3IgZGUgc3UgbWVkaWEgICRcbXUkLiAKCkNvbW8gZWwgw6FyZWEgYmFqbyBsYSBkaXN0cmlidWNpw7NuIG5vcm1hbCBkZSBwcm9iYWJpbGlkYWQgZXMgaWd1YWwgYSAxLCBsYSBzaW1ldHLDrWEgaW1wbGljYSBxdWUgZWwgw6FyZWEgYSBsYSBkZXJlY2hhIGRlICRcbXUkIHkgZWwgw6FyZWEgYSBsYSBpenF1aWVyZGEgZGUgJFxtdSQgc29uIGlndWFsZXMuIAoKTGEgZm9ybWEgZGUgbGEgZGlzdHJpYnVjacOzbiBlc3TDoSBkZXRlcm1pbmFkYSBwb3IgJFxzaWdtYSQsIGxhIGRlc3ZpYWNpw7NuIGVzdMOhbmRhciBkZSBsYSBwb2JsYWNpw7NuLiAKCgoKXHRleHRiZntMYSBkaXN0cmlidWNpw7NuIGFsZWF0b3JpYSAgbm9ybWFsIGVzdMOhbmRhcn0gCgpVbmEgdmFyaWFibGUgYWxlYXRvcmlhIG5vcm1hbCB4IGVzdMOhIGVzdGFuZGFyaXphZGEgYWwgZXhwcmVzYXIgc3UgdmFsb3MgY29tbyBlbCBuw7ptZXJvIGRlIGRlc3ZpYWNpb25lcyBlc3TDoW5kYXIgJFxzaWdtYSQgcXVlIHNlIGVuY3VlbnRyYSBhIGxhIGl6cXVpZXJkYSBvIGRlcmVjaGEgZGUgc3UgbWVkaWEgJFxzaWdtYSQuIAoKCkxhIHZhcmlhYmxlIGFsZWF0b3JpYSBub3JtYWwgZXN0w6FuZGFyLCB6LCBzZSBkZWZpbmUgY29tbywKCiQkeiA9ICBcZnJhY3t4LVxtdX17XHNpZ21hfSQkCm8gYmllbiwgbG8gcXVlIGVzIGVxdWl2YWxlbnRlLCAKCiQkIHggPSBcbXUgKyB6IFxzaWdtYSAkJCAKCkRlIGxhIGbDs3JtdWxhIHBvZGVtb3MgZGVkdWNpciBxdWU6IAoKCgoKCiAgXHRleHRiZntMYSBkaXN0cmlidWNpw7NuIG5vcm1hbCBkZSBwcm9iYWJpbGlkYWR9IAoKCkxhcyBkaXN0cmlidWNpb25lcyBkZSBwcm9iYWJpbGlkYWQgY29udGludWEgcHVlZGVuIHRvbWFyIHZhcmlhcyBmb3JtYXMuLi4KCkxhIG1lZGlhICRcbXUkIGxvY2FsaXphIGVsIGNlbnRybyBkZSBsYSBkaXN0cmlidWNpw7NuIHkgbGEgZGlzdHJpYnVjacOzbiBlcyAgXHRleHRiZntzaW3DqXRyaWNhfSBhbCByZWRlZG9yIGRlIHN1IG1lZGlhICAkXG11JC4gCgpDb21vIGVsIMOhcmVhIGJham8gbGEgZGlzdHJpYnVjacOzbiBub3JtYWwgZGUgcHJvYmFiaWxpZGFkIGVzIGlndWFsIGEgMSwgbGEgc2ltZXRyw61hIGltcGxpY2EgcXVlIGVsIMOhcmVhIGEgbGEgZGVyZWNoYSBkZSAkXG11JCB5IGVsIMOhcmVhIGEgbGEgaXpxdWllcmRhIGRlICRcbXUkIHNvbiBpZ3VhbGVzLiAKCkxhIGZvcm1hIGRlIGxhIGRpc3RyaWJ1Y2nDs24gZXN0w6EgZGV0ZXJtaW5hZGEgcG9yICRcc2lnbWEkLCBsYSBkZXN2aWFjacOzbiBlc3TDoW5kYXIgZGUgbGEgcG9ibGFjacOzbi4gCgoKClx0ZXh0YmZ7TGEgZGlzdHJpYnVjacOzbiBhbGVhdG9yaWEgIG5vcm1hbCBlc3TDoW5kYXJ9IAoKVW5hIHZhcmlhYmxlIGFsZWF0b3JpYSBub3JtYWwgeCBlc3TDoSBlc3RhbmRhcml6YWRhIGFsIGV4cHJlc2FyIHN1IHZhbG9zIGNvbW8gZWwgbsO6bWVybyBkZSBkZXN2aWFjaW9uZXMgZXN0w6FuZGFyICRcc2lnbWEkIHF1ZSBzZSBlbmN1ZW50cmEgYSBsYSBpenF1aWVyZGEgbyBkZXJlY2hhIGRlIHN1IG1lZGlhICRcc2lnbWEkLiAKCgpMYSB2YXJpYWJsZSBhbGVhdG9yaWEgbm9ybWFsIGVzdMOhbmRhciwgeiwgc2UgZGVmaW5lIGNvbW8sCgokJHogPSAgXGZyYWN7eC1cbXV9e1xzaWdtYX0kJApvIGJpZW4sIGxvIHF1ZSBlcyBlcXVpdmFsZW50ZSwgCgokJCB4ID0gXG11ICsgeiBcc2lnbWEgJCQgCgpEZSBsYSBmw7NybXVsYSBwb2RlbW9zIGRlZHVjaXIgcXVlOiAKCgoKCgogIAoKCgoKIyMjUMOhZ2luYSAyNDkgRXN0YWTDrXN0aWNhIHkgcHJvYmFiaWxpZGFkIAoKCgoKClx0ZXh0e0Rpc3RyaWJ1Y2nDs24gZ2VvbcOpdHJpY2F9CgpFbiB0ZW9yw61hIGRlIHByb2JhYmlsaWRhZCB5IGVzdGFkw61zdGljYSwgbGEgZGlzdHJpYnVjacOzbiBnZW9tw6l0cmljYSBlcyBjeWFscXVpZXJhIGRlIGxhcyBkb3MgZGlzdHJpYnVjaW9uZXMgZGUgcHJvYmFiaWxpZGFkIGRpc2NyZXRhcyBzaWd1aWVudGVzOiAKCjEuIFNpICRYID0gezEsMiwgLi4uIH0kIGVzIGVsIG7Dum1lcm8gbmVjZXNhcmlvIHBhcmEgb2J0ZW5lciB1biDDqXhpdG8gCjIuIFNpICRYID0gezAsMSwyLCAuLi4gfSQgZXMgZWwgbsO6bWVybyBkZSBmcmFjYXNvcyBhbnRlcyBkZWwgcHJpbWVyIMOpeGl0byAKClx0ZXh0YmZ7IE5vdGFjacOzbjogfQoKU2kgdW5hIHZhcmlhYmxlIGFsZWF0b3JpYSBkaXNjcmV0YSBYIHNpZ3VlIHVuYSBkaXN0cmlidWNpw7NuIGdlb23DqXRyaWNhIGNvbiBwYXLDoW1ldHJvICAkMCA8IHAgPDEkIGVudG9uY2VzIGVzY3JpYmlyZW1vcyAkWFxiYWNrc2ltIEdlb21ldHJpY2EocCkkICBvIHNpbXBsZW1lbnRlICRYXGJhY2tzaW0gR2VvKHApJCAKClx0ZXh0YmZ7IEZ1bmNpw7NuIGRlIHByb2JhYmlsaWRhZDogfQoKU2kgbGEgdmFyaWFibGUgYWxlYXRvcmlhIGRpc2NyZXRhIFggc2UgdXNhIHBhcmEgbW9kZWxhciBlbCBuw7ptZXJvIGRlIGZyYWNhc29zIGFudGVzIGRlIG9idGVuZXIgZWwgcHJpbWVyIMOpeGl0byBlbiB1bmEgc3VjZXNpw7NuIGRlIGVuc2F5b3MgaW5kZXBlbmRpZW50ZXMgQmVybm91bGxpIGVuIGRvbmRlIGNhZGEgdW5vIGRlIGVsbG9zIGxhIHByb2JhYmlsaWRhZCBkZSDDqXhpdG8gZXMgcCwgZW50b25jZXMgbGEgZnVuY2nDs24gZGUgcHJvYmFiaWxpZGFkIGRlICRYIFxiYWNrc2ltIEdlb21ldHJpY2EocCkkIGVzIAoKJCRQW1ggPSB4XSA9IHAgKDEtcCleeCQkIApQYXJhIHZhbG9yZXMgZGUgJCR4ID0gMCwxLDIsMywgLi4uJCQgCgoKRWplbXBsbyAxOiAKClN1cG9uZ2EgcXVlIGNhZGEgdW5hIGRlIHN1cyBsbGFtYWRhcyBhIHVuYSBlc3RhY2nDs24gZGUgcmFkaW8gcG9wdWxhciB0aWVuZSB1bmEgcHJvYmFiaWxpZGFkIGRlIDAuMDIgZGUgc2VyIHJlc3BvbmRpZGEuIEFzdW1pZW5kbyBxdWUgbGFzIGxsYW1hZGFzIHNvbiBpbmRlcGVuZGllbnRlcywgwr9jdcOhbCBlcyBsYSBwcm9iYWJpbGlkYWQgZGUgcXVlIGxhIHJlc3BvbmRhbiBhIGxhIGTDqWNpbWEgbGxhbWFkYT/Cv0N1w6FsIGVzIGVsIG7Dum1lcm8gbWVkaW8gZGUgbGxhbWFkYXMgcGFyYSBjb25lY3Rhcj8KClNlYSAkeCQgZWwgbsO6bWVybyBkZSBsbGFtYWRhcyBhIGxhIGVzdGFjacOzbiBoYXN0YSBzZXIgYXRlbmRpZG8uIAoKw4l4aXRvOiBsbGFtYWRhIHJlc3BvbmRpZGEgKHApCkZyYWNhc286IGxsYW1hZGEgbm8gcmVzcG9uZGlkYSAoMS1wKQoKU2VhICRwID0gMC4wMiQgCnkgJDEtcCA9IDAuOTgkCgpFbnRvbmNlczogCiQkIGYoeCkgPSAoMS1wKV57eC0xfXAkJAogCiAkJGYoeCkgPSAoMC45OCleezEwLTF9KDAuMDIpJCQgCiAKICQkZih4KSA9IDAuMDE2NyAkJCAKCgpQYXJhIGNhbGN1bGFyIGVsIHZhbG9yIGVzcGVyYWRvIGRlIHVuYSBkaXN0cmlidWNpw7NuIGdlb23DqXRyaWNhIHNhYmVtb3MgcXVlOiAKCiQkRSh4KSA9IFxmcmFjezF9e3B9ICQkIAoKQWwgc3VzdGl0dWlyOiAKJCRFKHgpID0gXGZyYWN7MX17MC4wMn0gPSA1MCAkJCAKCgoKRWplbXBsbyAyOiAKCkxhIHByb2JhYmlsaWRhZCBkZSBjYWxpYnJhciBsYXMgbGxhbnRhcyBkZSB1biBjYXJybyBkZSBhY3VlcmRvIGNvbiBsYXMgZXNwZWNpZmljYWNpb25lcyBkZSBsYSBtYXJjYSBlcyBkZSAwLjYuIEFzdW1pZW5kbyBxdWUgbG9zIGludGVudG9zIGRlIGNhbGlicmFjacOzbiBzb24gaW5kZXBlbmRpZW50ZXMsIMK/Y3XDoWwgZXMgbGEgcHJvYmFiaWxpZGFkIGRlIHF1ZSBhIGxvIG3DoXMgdHJlcyBpbnRlbnRvcyBkZSBjYWxpYnJhY2nDs24gc2VhbiByZXF1ZXJpZG9zIHBhcmEgc2F0aXNmYWNlciBsYXMgZXNwZWNpZmljYWNpb25lcz8KCgpzZWEgeCA9IGludGVudG9zIHBhcmEgbG9ncmFyIGxhIGNhbGlicmFjacOzbi4gCgokcCA9IDAuNiQgCnkgCiQxLXAgPSAwLjQkIAoKU2UgcXVpZXJlIGNhbGN1bGFyIGxhOiAKCiQkIFAoWCBcbGVxIDMpID0gUCh4ID0gMSkgKyBQKHggPSAyKSArIFAoeCA9IDMpJCQKClNhYmVtb3MgcXVlOiAKJCQgZih4KSA9ICgxLXApXnt4LTF9cCQkCgokJGYoeD0xKSA9ICgwLjYpKDAuNCleMCA9IDAuNiAkJCAKJCRmKHg9MikgPSAoMC42KSgwLjQpXjEgPSAwLjI0ICQkIAokJGYoeD0zKSA9ICgwLjYpKDAuNCleMiA9IDAuMDk2ICQkIApFbnRvbmNlczogCgokJFAoWCBcbGVxIDMpID0gMC45MzYgJCQgCgoKClx0ZXh0YmZ7RGlzdHJpYnVjacOzbiBQb2lzc29uIH0KCk1lZGlhIDogCgokJEUoeCkgPSBcbGFtYmRhJCQgCgoKClZhcmlhbnphOiAKCgokJFYoeCkgPSBcbGFtYmRhJCQgCkVzIGRlY2lyLCB0YW50byBlbCB2YWxvciBlc3BlcmFkbyBjb21vIGxhIHZhcmlhbnphIGRlIHVuYSB2YXJpYWJsZSBhbGVhdG9yaWEgY29uIGRpc3RyaWJ1Y2nDs24gZGUgUG9pc3NvbiBzb24gaWd1YWxlcyBhICRcbGFtYmRhJAoKClx0ZXh0YmZ7QXByb3hpbWFjacOzbiBhIHVuYSBub3JtYWwgbyBlc3RhbmRhcml6YWNpw7NuIH0KCkNvbW8gY29uc2VjdWVuY2lhIGRlbCBUQ0wsIHBhcmEgdmFsb3JlcyBncmFuZGVzIGRlICRcbGFtYmRhJCBkZSB1bmEgdmFyaWFibGUgYWxlYXRvcmlhIFBvaXNzb24gWCBwdWVkZSBhcHJveGltYXJzZSBwb3Igb3RyYSBub3JtYWwgZGFkbyBxdWUgZWwgY29jaWVudGU6IAoKJCRZID1cZnJhY3tYLVxsYW1iZGF9e1xzcXJ0e1xsYW1iZGF9fSQkIAoKCgo=</div>
 
 
 
