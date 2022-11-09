@@ -15,15 +15,20 @@ Las distribuciones de probabilidad continua pueden tomar varias formas...
 
 La media $\mu$ localiza el centro de la distribución y la distribución es  \textbf{simétrica} alrededor de su media  $\mu$. 
 
-Como el área bajo la distribución normal de probabilidad es igual a 1, la simetría implica que el área a la derecha de $\mu$ y el área a la izquierda de $\mu$ son iguales. 
+Como \textbf{el área bajo la distribución normal de probabilidad es igual a 1}, la simetría implica que el área a la derecha de $\mu$ y el área a la izquierda de $\mu$ son iguales. 
 
 La forma de la distribución está determinada por $\sigma$, la desviación estándar de la población. 
+Es decir, valores grandes de $\sigma$ reducen la altura de la curva y aumentan  la dispersión; valores pequeños de $\sigma$ aumentan la altura de la curva y reducen la dispersión. 
 
+
+Ahora, para hallar la probabilidad de que una variable aleatoria normal x se encuentre en el intervalo de $a$ a $b$, necesitamos encontrar el área bajo la curva normal entre los puntos $a$ y $b$. 
+
+Existe un número infinitamente grande de distribuciones normales, uno para cada media y desviación estándar diferentes; dado que es sumamente impráctico usamos el proceso de estandarización que nos permite usar la misma tabla para todas las distribuciones normales. 
 
 
 \textbf{La distribución aleatoria  normal estándar} 
 
-Una variable aleatoria normal x está estandarizada al expresar su valos como el número de desviaciones estándar $\sigma$ que se encuentra a la izquierda o derecha de su media $\sigma$. 
+Una variable aleatoria normal x está estandarizada al expresar su valores como el número de desviaciones estándar $\sigma$ que se encuentra a la izquierda o derecha de su media $\sigma$. 
 
 
 La variable aleatoria normal estándar, z, se define como,
@@ -35,55 +40,78 @@ $$ x = \mu + z \sigma $$
 
 De la fórmula podemos deducir que: 
 
+*  Cuando x es menor que la media $\mu$, el valor de Z es NEGATIVO
+
+* Cuando x es mayor que la media $\mu$, el valor de Z es POSITIVO
+
+* Cuando $x = \mu$, el valor de Z es CERO
 
 
 
 
-  \textbf{La distribución normal de probabilidad} 
+En las tablas que nos brinda el Departamento tenemos el área bajo la curva normal estándar a la izquierda de un valor especifico de z, por ejemplo $z_0$, es la probabilidad $P(z\leq z_0)$.  
 
+La distribución normal estandarizada porque su media es 0 y su desviación estándar es 1. 
 
-Las distribuciones de probabilidad continua pueden tomar varias formas...
+Por ejemplo: 
 
-La media $\mu$ localiza el centro de la distribución y la distribución es  \textbf{simétrica} al rededor de su media  $\mu$. 
+*  Encuentre la $P(z >0.5)$: 
 
-Como el área bajo la distribución normal de probabilidad es igual a 1, la simetría implica que el área a la derecha de $\mu$ y el área a la izquierda de $\mu$ son iguales. 
-
-La forma de la distribución está determinada por $\sigma$, la desviación estándar de la población. 
-
-
-
-\textbf{La distribución aleatoria  normal estándar} 
-
-Una variable aleatoria normal x está estandarizada al expresar su valos como el número de desviaciones estándar $\sigma$ que se encuentra a la izquierda o derecha de su media $\sigma$. 
-
-
-La variable aleatoria normal estándar, z, se define como,
-
-$$z =  \frac{x-\mu}{\sigma}$$
-o bien, lo que es equivalente, 
-
-$$ x = \mu + z \sigma $$ 
-
-De la fórmula podemos deducir que: 
-
-
-
-
-
+Sabemos que, por simetría 
+$P(z >0.5) = 1 - P(z \leq 0.5) = 1- 0.3085 = 0.6915$
   
+* Encuentre la $P(-1\leq z \leq 1)$ 
+
+Que es lo mismo: 
+  
+$P(-1\leq z \leq 1) = P (z \leq 1) - P(z \leq -1) = 0.8413 - 0.1587 = 0.6826$ 
+  
+* Encuentre la $P(-2 \leq z \leq 2)$ 
+
+Que es lo mismo: 
+  
+$P(-2\leq z \leq 2) = P (z \leq 2) - P(z \leq -2) = 0.9772 - 0.0228 = 0.9544$   
+
+
+Ahora bien, 
 
 
 
-
-###Página 249 Estadística y probabilidad 
-
-
+\begin{enumerate}
+\item Sea x una variable aleatoria normalmente distribuida con media de 10 y desviación estándar de 2. Encuentre la probabilidad de que x se encuentre entre 11 y 13.6. 
 
 
+Debemos, en un primer momento: 
+$$P(11 \leq x \leq 13.6)$$ 
 
-\text{Distribución geométrica}
+$$P(x \leq 13.6) - P(x \leq 11)$$
 
-En teoría de probabilidad y estadística, la distribución geométrica es cyalquiera de las dos distribuciones de probabilidad discretas siguientes: 
+$$= P (\frac{x-\mu}{\sigma} \leq \frac{13.6-10}{2}) - P (\frac{x-\mu}{\sigma} \leq \frac{11-10}{2}) $$ 
+
+$$= P(x \leq 1.8) - P(x \leq .5)$$ 
+
+$$= 0.9641 . 0.6915 = 0.2726$$ 
+
+
+\item Estudios realizados recientemente demuestran que el uso de gasolina para autos híbridos vendidos en CDMX está normalmente distribuido, con media de 25.5 millas por galón (mpg) y una desviación estándar de 4.5 mpg. ¿Qué porcentaje de compactos recorre 30 mpg?
+
+Nos piden: 
+$$P(x > 30)$$ 
+Entonces (estandarizamos)
+
+$$ P(\frac{x-\mu}{\sigma} > \frac{30-25.5}{4.5}) $$
+ Por simetría 
+$$  1- P(z \leq 1)$$
+$$= 1- 0.8413 = 0.1587$$
+
+
+\end{enumerate}
+
+
+
+\textbf{Distribución geométrica}
+
+En teoría de probabilidad y estadística, la distribución geométrica es cualquiera de las dos distribuciones de probabilidad discretas siguientes: 
 
 1. Si $X = {1,2, ... }$ es el número necesario para obtener un éxito 
 2. Si $X = {0,1,2, ... }$ es el número de fracasos antes del primer éxito 
