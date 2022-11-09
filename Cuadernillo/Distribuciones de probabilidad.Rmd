@@ -166,8 +166,9 @@ $$E(x) = \lambda$$
 
 Varianza: 
 
-
 $$V(x) = \lambda$$ 
+
+
 Es decir, tanto el valor esperado como la varianza de una variable aleatoria con distribución de Poisson son iguales a $\lambda$
 
 
