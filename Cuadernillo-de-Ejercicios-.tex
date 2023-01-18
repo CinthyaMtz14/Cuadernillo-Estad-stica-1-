@@ -1,0 +1,373 @@
+%Example of use of oxmathproblems latex class for problem sheets
+%(un)comment this line to enable/disable output of any solutions in the file
+%\printanswers
+\documentclass{../oxmathproblems}
+\usepackage{blindtext}
+\usepackage{hyperref}
+\usepackage{geometry}
+%define the page header/title info
+\course{ITAM - Estadistica 1}
+\oxfordterm{Cuadernillo de Ejercicios}
+\sheetnumber{1}
+\extrawidth{2cm}
+
+\begin{document}
+
+\begin{questions}
+
+\section{Introducción.} 
+
+\subsection {Importancia del uso de datos para solución de problemas y toma de decisiones.}
+
+\miquestion{¿Cuál es la diferencia entre población y muestra?}
+\miquestion{Defina a la población estadística}
+
+
+
+
+\section{Análisis exploratorio de datos.} 
+
+
+\subsection{Datos cualitativos y distribuciones de frecuencia}
+
+\miquestion{Identifica cada una de las siguientes variables como cualitativas o cuantitativas y su escala de medición.} 
+
+\begin{itemize}
+
+\item a) El tipo de uso más frecuente de su horno de microondas (recalentar, descongelar, calentar)
+
+\item b) El número de consumidores que se niegan a contestar una encuesta por teléfono 
+
+\item c) La puerta escogida por un ratón en un experimento de laboratorio (A, B o C)
+
+\item d) El tiempo ganador para un caballo que corre en el Derby de Kentucky 
+
+\end{itemize}
+
+
+
+
+
+\miquestion Se realizó una encuesta a los alumnos del ITAM, respecto a la marca de cigarros que consumen con frecuencia. Se obtuvieron los siguientes datos: 
+\textit{Camel, camel, delicado, delicado, camel, marlboro, marlboro, camel, delicado, delicado}
+
+\begin{itemize}
+\item Realice la tabla de distribución de frecuencia
+\end{itemize}
+
+\subsection{Curvas de distribución de frecuencias. Poblaciones y sus formas.}
+
+\miquestion{Un museo de historia natural cuenta con datos del tiempo en minutos que los visitantes ven cierta exhibición de un dinosaurio. La distribución de frecuencias de los datos se presentan a continuación:}
+
+
+
+\begin{tabular}{| c | c |}
+\hline
+Tiempo ante el objeto exhibido & $f_i$ \\ \hline
+menos de 2 & $30$  \\ \hline
+$[2,4)$ & $40$  \\ \hline
+$[4,6)$ & $40$  \\ \hline
+$[6,8)$ & $90$  \\ \hline
+$[8,10)$ & $70$  \\ \hline
+$[10,12)$ & $50$  \\ \hline
+$[12,14)$ & $50$  \\ \hline
+$[14,16)$ & $30$  \\ \hline
+\end{tabular}
+
+\begin{itemize}
+\item Construya la ojiva correspondiente.
+\item La administración ha decidido que un objeto de exhibición es un fracaso si el 50\% de los visitantes pasan menos de 4 minutos viéndolo ¿Cuál es el porcentaje de personas que lo observan menos de 4 minutos?
+\item Obtenga la media, mediana, clase modal y desviación estándar. 
+\end{itemize}
+
+
+\subsection{Distribución de frecuencias y diagrama de puntos}
+
+\miquestion{Se enumeran los colores de 21 dulces:}
+
+\textit{Café, rojo, amarillo, café, anaranjado, amarillo, verde, rojo, anaranjado, azul, azul, café, verde, verde, azul , café, azul, café, azul, café, anaranjado}
+
+\begin{itemize}
+\item Construya la tabla de distribución de frecuencia para la variable cualitativa, su respectivo diagrama de puntos y gráfica de barras.
+\end{itemize}
+
+
+
+\subsection{Diagrama de tallo y hoja variables discretas}
+
+\miquestion{Se tiene los siguientes precios en dolares de zapatos deportivos para el primer trimestre del 2022:}
+
+\textit{90, 65, 75, 70, 70, 68, 70, 70, 60, 68, 70, 74, 65, 75, 70, 40, 70, 95, 65}
+
+
+\begin{itemize}
+\item  Construya un diagrama de tallo y hoja para estos datos. Usted proponga la escala del tallo y las hojas.
+\end{itemize}
+
+
+
+\subsection{Variable aleatoria continua}
+
+\miquestion{El responsable de control de calidad de "Mr. Tuky Hot Dog" debe verificar el peso de las bolsas de 2.27 kg. de salchicha. Para cumplir con su tarea sin verificar cada bolsa que sale de la planta, el responsable muestrea diariamente algunas bolsas, pesa el contenido y extrae una conclusión sobre el peso promedio de las bolsas que salen de esa planta ese día. Se presenta el peso de 15 bolsas seleccionadas en un día:} 
+
+\textit{2.15, 2.18, 2.19, 2.19, 2.19, 2.19, 2.21, 2.27, 2.27, 2.27, 2.27, 2.27, 2.27, 2.30, 2.33}
+
+Calcular: 
+\begin{itemize}
+\item a) Tabla de distribución de frecuencias
+\item b) Diagrama de tallo y hoja
+\item c) Diagrama de puntos 
+\item d) Histograma 
+\end{itemize}
+
+
+
+
+\section{Probabilidad} 
+
+\subsection{Propiedades de Conjuntos}
+
+\miquestion 
+$$ A = {4,8,12}$$
+$$ B = {2,4,6,8}$$
+$$ C = {2,6,10}$$
+
+Determinar: 
+\begin{itemize}
+\item A $\cup$ B
+\item A $\cap$ B
+\item A $\cap$ C
+\item $A^c$ $\cap$ B
+\item A $\cap$ $B^c$
+\end{itemize}
+
+\miquestion{Sean A y B dos eventos mutuamente excluyentes tales que $P(A) =0.3$ y $P(B)=0.2$. Calcule las siguientes probabilidades.} 
+
+\begin{itemize}
+\item $P(A^c)$
+\item $P(A\cup B)$
+\item $P(A\cap B)$
+\item $P(A\cup B^c)$
+\end{itemize}
+
+\miquestion{Sean A y B dos eventos tales que:}
+$P(A)=\frac{1}{4},$ 
+$P(B|A) = \frac{1}{2},$
+$P(A|B) = \frac{1}{4}$ 
+\text{y A no es subconjunto de B.} 
+
+\begin{itemize}
+\item Demuestre que $P(A\cap B) > 0$
+\item Calcule $P(A^c|B^c)$
+\end{itemize}
+
+
+
+\subsection{Espacios muestrales}
+
+\miquestion{Defina el espacio muestral de los siguientes eventos simples}
+
+\begin{itemize}
+\item Se lanza un dado 
+\item Se lanzan dos dados
+\item Se lanza una moneda
+\item Se lanza dos monedas
+\end{itemize}
+
+
+\subsection{Distribuciones de probabilidad}
+
+\miquestion{Los eventos A y B son tales que $P(B)= 1/4$, y $P(B)= 1/2$. Obtenga $P[A|B]$ e indique si los eventos tienen alguna relación entre si:}
+\begin{itemize}
+\item $P(B|A) = 1/4$
+\item $P(B|A) = 1/2$
+\item $P(B|A) = 1/3$
+\end{itemize}
+
+\miquestion{Al lanzar una moneda tres veces, ¿cuál es la probabilidad de que salgan $2$ soles?}
+
+
+\miquestion{Si dos eventos, A y B, son tales que 
+$P(A)=0.5 $, $P(B)=0.3 $ y $P(A \cap B)=0.1$}
+
+Determine: 
+\begin{itemize}
+\item $P(A|B)$ 
+\item $P(B|A)$
+\end{itemize}
+
+
+
+
+
+
+\miquestion{Una encuesta clasificó a un gran número de adultos de acuerdo con si se les diagnosticó la necesidad de usar lentes para corregir su visión de lectura o si ya usan lentes cuando leen. Las proporciones que caen en las cuatro categorías resultantes se dan en la tabla siguiente:}
+
+%%insertar la tabla 
+
+
+
+
+
+
+
+
+\miquestion {Sea x una distribución de probabilidad para una variable aleatoria discreta, se tiene los siguientes datos:}
+
+
+\begin{enumerate}
+\item 
+\begin{tabular}{| c | c |}
+\hline
+x & p(x) \\ \hline
+0 & $\frac{1}{4}$ \\ \hline
+1 &$\frac{1}{2}$\\ \hline
+2 & $\frac{1}{4}$ \\ \hline
+\end{tabular}
+
+\item  
+\begin{tabular}{| c | c |}
+\hline
+x & p(x) \\ \hline
+0 & 0.10 \\ \hline
+1 &  0.40 \\ \hline
+2 & 0.20 \\ \hline
+3 & 0.15 \\ \hline
+4 & 0.10 \\ \hline
+5 & 0.05 \\ \hline
+\end{tabular}
+\end{enumerate}
+
+\begin{itemize}
+\item Para cada uno de los incisos: determine el valor esperado de x, la media y la desviación estándar. 
+\end{itemize}
+
+
+\miquestion En una lotería realizada a beneficio de la institución local de caridad, se han de vender 8000 boletos a $10$ cada uno. El premio es un automóvil con valor de $24 000$. Si usted compra dos boletos, ¿cuál es su ganancia esperada?
+
+
+\miquestion {Mars,Inc. tiene tres plantas empacadoras de Skittles ubicadas en Tijuana, Guadalajara y Monterrey. Se sabe que la planta de Tijuana empaca el $10\%$ del total de los Skittles, la planta de Guadalajara empaca el $40\%$ de los Skittles, mientras que la planta de Monterrey empaca el 50$\%$ restante de la producción total de Skittles.
+Mars, Inc. sabe que un paquete de Skittles podría contaminarse durante el proceso de empacado con probabilidades de 0.003 en la planta de Tijuana, 0.002 en la planta de Guadalajara y 0.001 en la planta de Monterrey.}
+
+Determine: 
+\begin{itemize}
+\item ¿Cuál es la probabilidad de que un paquete de Skittles seleccionado al azar esté contaminado?
+\item Si se elige un paquete de Skittles al azar y se encuentra contaminado. ¿En cuál de las tres plantas es más probable que se haya empacado?
+\item Si se elige un paquete de Skittles al azar, ¿Cuál es la probabilidad que esté contaminado y no haya sido empacado en Monterrey?
+\end{itemize}
+
+
+\miquestion Sea x una distribución de probabilidad para una variable aleatoria discreta, se tiene los siguientes datos: 
+\begin{tabular}{| c | c |}
+\hline
+x & p(x) \\ \hline
+0 & 0.10 \\ \hline
+1 &  0.3 \\ \hline
+2 & 0.4 \\ \hline
+3 & 0.1 \\ \hline
+4 & $?$ \\ \hline
+5 & 0.05 \\ \hline
+\end{tabular}
+\begin{itemize}
+\item Encuentre la $p(x=4)$
+\item Determine el valor esperado de x, la media y la desviación estándar. 
+\end{itemize}
+
+
+
+
+\miquestion {Un jugador de fútbol anota más goles a corta distancia. Sea  x el número de goles anotados. Se tiene la siguiente distribución de probabilidades:} 
+
+
+\begin{itemize}
+\item Determine, cuál es la puntuación esperada del jugador de fútbol.
+\end{itemize}
+
+
+\miquestion{Las duraciones (medidas en minutos) de llamadas a un Call Center se modelan como variables aleatorias exponenciales independientes e identicamente distribuidas 
+
+
+
+\section{Repaso de Integrales (Parte (1))}
+\begin{itemize}
+\item a) $\int  \frac{1}{x^2 \sqrt[5]{x^2}} dx$ 
+\item b) 
+$\int \mathrm{e}^x+2x^3 dx $
+
+\item b) $\int (x+2)^3 dx  $ 
+
+\item c) $ \int 5^x dx  $ 
+\item d) $ \int 2^x \cdot 5^2 dx $ 
+\item e) $ \int \frac{x+1}{x} dx $ 
+\item f) $ \int x^5 dx $ 
+\item g) $ \int \mathrm{e}^x dx $ 
+\item h) $ \int \frac{x^2}{\sqrt{x}} dx $ 
+\item i) $ \int  \sqrt{x+1} dx $ 
+\item j) $ \int  (\sqrt{x} + a) dx $ 
+\item k) $ \int x + \sqrt{x} dx $ 
+\item l) $ \int x  dx $ 
+\item m) $ \int \frac{1}{x} dx  $
+\item n) $ \int (\frac{1}{x} + 1) dx $
+\item o) $ \int (\frac{3x^2}{x} + 1 ) dx $ 
+\item p) $ \int (3x^2 + 1 ) dx $ 
+\item q) $ \int (2x - \mathrm{e}^x ) dx $ 
+\item r) $ \int (2x^3 - \mathrm{e}^x ) dx $ 
+\item s) $ \int 3x^4 dx $ 
+\item t)  $ \int 2x^7 dx $ 
+\item u)  $ \int \frac{1}{x^3} dx $ 
+\item v) $ \int \frac{3}{t^5} dt $ 
+\item w) $ \int 5u^{\frac{3}{2}} du $ 
+\item x) $ \int  \frac{3}{\sqrt{y}} dx $ 
+\item y) $ \int (4x^3 + x^2) dx $ 
+\item z) $ \int (3u^5 - 2u^3) du $ 
+
+\end{itemize}
+
+
+
+\section{Repaso de Integrales (Parte (2))}
+\begin{itemize}
+\item a) $ \int y^3(2y^2 - 3) dx $ 
+\item b) $ \int x^4(5 - x^2) dx $ 
+\item c) $ \int (3 -2t + t^2) dx $ 
+\item d) $ \int \sqrt{x}(x+1) dx $ 
+\end{itemize}
+
+\subsection{Repaso de Integrales (Integración por partes)}
+\begin{itemize}
+\item a) $ \int \ln{^2}x dx $ 
+\item b) $ \int (x^3 + 5x^2 - 2) dx $ 
+\item c) 
+\end{itemize}
+
+
+
+
+\subsection{ Distribuciones de probabilidad para variables aleatorias continuas}
+
+
+\text{Las}  \textbf{variables aleatorias continuas, } \text{ por ejemplo estaturas y pesos, lapso de vida útil de un
+producto en particular o un error experimental de
+laboratorio, pueden tomar los numeros infinitamente correspondientes a un intervalo de una recta.} 
+
+
+
+
+
+
+
+
+
+
+
+\end{questions}
+
+
+
+
+\textbf{Bibliografía}
+Mendenhall, W. (2006). Introducción a la probabilidad y Estadística (Vol. 13). Cengage Learning.
+Aguirre, V. A. B. A. (2006). Fundamentos de Probabilidad y Estadística (2 ed.). Jit Press.
+Cuaderno de Ejercicios del curso de Estadística I. Departamento Académico de Estadística. ITAM.
+
+\end{document}
